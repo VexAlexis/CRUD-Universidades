@@ -30,6 +30,7 @@ public class MenuJFrame extends JFrame{
         //AÑADIR TITULO
         setTitle("REGISTRO DE UNIVERSIDADES");
         setBounds(150,150,1100,740);
+        setIconImage(Toolkit.getDefaultToolkit().getImage((getClass().getResource("/util/uniEnLinea.png"))));
         setResizable(true);    //Impedir que pueda cambiar de tamaño
         setLocationRelativeTo(null);    //Se castee en el centro
         //Seter layout que viene por defecto
